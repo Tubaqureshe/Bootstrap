@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEAUTIFLIE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script:wght@500&family=Poppins:ital,wght@1,400;1,600&family=Tilt+Prism&display=swap');
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .carousel-caption {
+      bottom: 240px;
+      z-index: 2;
+    }
+
+    .carousel-caption h4 {
+      margin-top: 196px;
+      font-size: 5.5rem;
+      color: black;
+      font-family: 'Dancing Script', cursive;
+    }
+
+    p {
+      margin-top: 8px;
+      color: black;
+      font-family: 'Alkatra', cursive;
+    }
+
+    .container {
+      font-family: 'Dancing Script', cursive;
+
+    }
+
+    .row {
+      font-family: 'Dancing Script', cursive;
+    }
+
+    .py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 0.5rem!important;
+    }
+  </style>
+
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color:#d798b759;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/makeup-logo-design-template-6d1bb2503084b513c60fd7fd43f15adb_screen.jpg?ts=1604512110"
+        width="90px" height="50px" style="border-radius: 20px;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style=" font-family: 'Alkatra', cursive;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item" style=" font-family: 'Alkatra', cursive;">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+
+          <li class="nav-item" style=" font-family: 'Alkatra', cursive;">
+            <a class="nav-link" href="/product.html">Product</a>
+          </li>
+          <li class="nav-item" style=" font-family: 'Alkatra', cursive;">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+
+          <li class="nav-item dropdown"  style=" font-family: 'Alkatra', cursive;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 20px;">
+          <button class="btn btn-outline-success" type="submit" style="border-radius: 20px;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img  src="https://img.freepik.com/free-photo/collection-beauty-products-with-copy-space_23-2148620110.jpg?w=2000"class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h4 style="text-align:left;">Beauty<br> Kit</h4>
+            <p style="text-align:left;">Ncididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo</p>
+              <div class="d-grid gap-2 d-md-block"> 
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item" style="font-family: 'Alkatra', cursive;">
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20210827/pngtree-cosmetics-makeup-brush-pink-background-image_768168.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="text-align: right;">SUPPER NATURAL</h1>
+              <p style="text-align: right;">Know why natural Cosmetic product <br>are benefici for Your skin</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvc21ldGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="text-align: right; font-family: 'Dancing Script', cursive;">Beauty in Life</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- ABOUT US -->
+      <section class="container bg-white my-5">
+        <div class="row">
+          <div class="col-md-5  bg-white text-center me-3" data-aos="fade-left" style="font-family: 'Dancing Script', cursive;">
+            <h1>
+              ABOUT OUR<br> BEAUTI SOTORE
+            </h1>
+            <p>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequatlabore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatlabore
+              et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <button type="button" class="btn btn-dark" style="border-radius: 20px;">READ MORE</button>
+          </div>
+
+
+          <div class="col-md-6" data-aos="fade-left">
+            <img src="https://franchiseindia.s3.ap-south-1.amazonaws.com/opp/article/english/images/1703935772.jpg"
+              class="img-fluid" alt="" srcset="">
+          </div>
+        </div>
+      </section>
+
+      <section class="row text-dark py-5">
+        <h1 class="text-center my-5" style="font-family: 'Dancing Script', cursive;">OUR PRODUCET</h1>
+        <p class="text-center my-3">incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation</p>
+        <div class="row mx-3 ">
+          <section>
+            <div class="container-fluid text-center">
+              <div class="row row-cols-3 mx-4" style="background-color: lightpink;">
+                <div class="col-xl-3 col-lg-2 col-sm-2" data-aos="fade-up" data-aos-duration="3000">
+                  <img src="https://down-my.img.susercontent.com/file/5654a42f9f6af43c5003b50290eca8f7"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;" ">BUY NOW</a>
+                  </div> 
+                </div>
+                <div class="col-xl-3 col-lg-2 col-sm-2" style="padding-bottom: 0.5rem;" data-aos="fade-up" data-aos-duration="3000">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0660/1041/products/BuddhaPurnima_10_500x.png?v=1652721234 "
+                    class="card-img-top" alt="...">
+                  <div class="card-body ">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-sm-2" data-aos="fade-up" data-aos-duration="3000">
+                  <img
+                    src="https://images.ctfassets.net/wlke2cbybljx/3cyF4hfWSMTNIpcPoISQb6/715f45e1538836a963479e9c9b4a7245/004_210342_PT_PARTY_SL_PT_HEROES_JB_211.jpg?w=500&h=500&fit=fill&fm=jpg&bg="
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-sm-2"  data-aos="fade-up" data-aos-duration="3000">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/3007/9964/products/WEB-SQUARES_47_1024x1024.jpg?v=1674745244"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;" >Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid text-center">
+              <div class="row row-cols-3 mx-4" style="background-color: lightpink;">
+                <div class="col-xl-3 col-lg-2 col-sm-2" style="padding-bottom: 0.5rem;" data-aos="fade-up" data-aos-duration="3000">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0575/1305/0266/articles/Makeup_Brushes_101__The_Ultimate_Guide_900x.jpg?v=1667840302"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-sm-2" data-aos="fade-up" data-aos-duration="3000">
+                  <img
+                    src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29zbWV0aWN8ZW58MHx8MHx8&w=1000&q=80"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-sm-2 " data-aos="fade-up" data-aos-duration="3000">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0575/1305/0266/articles/how_often_should_you_clean_your_brushes_342x342.jpg?v=1658479136"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-sm-2 " data-aos="fade-up" data-aos-duration="3000">
+                  <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1632930713-bs-mall-1632930669.jpg?crop=1.00xw:0.954xh;0,0.0306xh&resize=980:*"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" style=" font-family: 'Dancing Script', cursive;">Beauty Bursh</h5>
+                    <p class="card-text">incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                    <a href="#" class="btn btn-dark" style="border-radius: 20px; font-family: 'Dancing Script', cursive;">BUY NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>  
+
+          <!-- CONTACT -->
+
+          <div>
+            <h1 class="text-center my-5" style="font-family: 'Dancing Script', cursive;">Contact Us</h1>
+          </div>
+          <div class="contact_section layout_padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1 class="contact_taital" style="font-family: 'Dancing Script', cursive;">Get In Touch</h1>
+                  <p class="contact_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation eu </p>
+                </div>
+                <div class="col-md-6"">
+           <div class=" contact_main">
+                  <button type="button" class="btn btn-dark btn-lg" style="border-radius: 20px;">Contact Form</button>
+                  <button type="button" class="btn btn-secondary btn-lg" style="border-radius: 20px;">New Letter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MAP -->
+
+          <div class="map_main">
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France"
+                width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer section start -->
+
+        <div class="footer_section layout_padding my-3" style="background-color:#e1afb4;">
+          <div class="container">
+            <div class="contact_section_2">
+              <div class="row">
+                <div class="col-sm-4">
+                  <h3 class="address_text" style="font-family: 'Dancing Script', cursive;">Contact Us</h3>
+                  <div class="address_bt">
+                    <ul>
+                      <li  style="font-family: 'Dancing Script', cursive;">
+                        <a href="#">
+                          <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left10">Address :
+                            Loram Ipusm</span>
+                        </a>
+                      </li>
+                      <li style="font-family: 'Dancing Script', cursive;">
+                        <a href="#">
+                          <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +01
+                            1234567890</span>
+                        </a>
+                      </li>
+                      <li style="font-family: 'Dancing Script', cursive;">
+                        <a href="#">
+                          <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left10">Email :
+                            demo@gmail.com</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div>
+                    <h1 style="font-family: 'Dancing Script', cursive;">BEAUTIFLIE</h1>
+                  </div>
+                  <p class="dummy_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="main">
+                    <h3 class="address_text" style="font-family: 'Dancing Script', cursive;">Best Products</h3>
+                    <p class="ipsum_text">dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+          crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>
